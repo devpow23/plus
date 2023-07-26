@@ -2,7 +2,7 @@
 #====================================================
 #	@dankelthaher
 #====================================================
-_lvk=$(wget -qO- https://www.dropbox.com/s/0beie6r5h5g7vs8/versao)
+_lvk=$(wget -qO- https://raw.githubusercontent.com/devpow23/plus/main/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
