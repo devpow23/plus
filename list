@@ -1,7 +1,4 @@
 #!/bin/bash
-#====================================================
-#	@dankelthaher
-#====================================================
 _lvk=$(wget -qO- https://raw.githubusercontent.com/devpow23/plus/main/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
