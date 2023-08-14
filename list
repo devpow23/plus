@@ -47,8 +47,8 @@ _mdls=("addhost" "delhost" "alterarsenha" "criarusuario" "expcleaner" "mudardata
 	cd $_dir3
 	wget https://github.com/devpow23/plus/raw/main/modulos.zip
 	unzip modulos.zip
-	chmod +x $_dir3/*
-	mv -f $_dir3/* /bin
+	chmod +x /root/prominex/*
+	mv -f /root/prominex/* /bin
 	cd $HOME
 rm -rf $_dir3
 mv $_dir1/cabecalho $_dir1/bot $_dir1/open.py $_dir1/proxy.py $_dir1/PDirect.py $_dir1/wsproxy.py $_dir2
