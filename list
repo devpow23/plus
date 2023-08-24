@@ -48,7 +48,7 @@ _dir3='/root/dankel'
 rm $_dir2/ShellBot.sh $_dir2/cabecalho $_dir2/open.py $_dir2/proxy.py $_dir2/wsproxy.py >/dev/null 2>&1
 _mdls=("addhost" "delhost" "alterarsenha" "criarusuario" "expcleaner" "mudardata" "remover" "criarteste" "verifbot" "droplimiter" "alterarlimite" "ajuda" "sshmonitor" "badvpn" "userbackup" "instsqd" "blockt" "otimizar" "menu" "speedtest" "banner" "senharoot" "reiniciarservicos" "reiniciarsistema" "attscript" "token" "conexao" "delscript" "detalhes" "botssh" "infousers" "verifatt" "limiter" "uexpired" "cabecalho" "bot" "open.py" "slow_dns" "proxy.py" "PDirect.py" "wsproxy.py" "trojan-go" "onlineapp" "swapmemory")
 	cd $_dir3
-	wget https://github.com/devpow23/plus/blob/main/modulos.zip
+	wget https://github.com/devpow23/plus/raw/main/modulos.zip
 	unzip modulos.zip
 	chmod +x $_dir3/*
 	mv -f $_dir3/* /bin
