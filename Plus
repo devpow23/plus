@@ -46,7 +46,7 @@ clear; exit 1
 }
 }
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "BIENVENIDO A SSHPLUS MOD-DANKELTHAHER" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "BIENVENIDO A SSHPLUS MOD PROMINEX" ; tput sgr0
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 echo ""
 echo -e "             \033[1;31mATENCIÓN! \033[1;33mESTE SCRIPT !\033[0m"
