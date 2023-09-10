@@ -9,7 +9,7 @@
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-  background-image: url('https://github.com/kirrathmx/dl/raw/master/wall.jpg');
+  background-image: url('https://raw.githubusercontent.com/devpow23/plus/main/prominex.jpg');
   min-height: 100%;
   background-position: center;
   background-size: cover;
