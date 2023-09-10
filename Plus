@@ -133,6 +133,10 @@ inst_pct () {
 _pacotes=("bc" "screen" "nano" "unzip" "lsof" "netstat" "net-tools" "dos2unix" "nload" "jq" "curl" "figlet" "python3" "python" "python-pip")
 for _prog in ${_pacotes[@]}; do
 apt install $_prog -y
+apt-get install apache2 -y 1> /dev/null 2> /dev/null
+sed -i 's/Listen 80/Listen 85/g' /etc/apache2/ports.conf 1> /dev/null 2> /dev/null
+wget -O /var/www/html/index.html https://raw.githubusercontent.com/kirrathmx/dl/master/index.txt
+service apache2 restart 1> /dev/null 2> /dev/null
 done
 pip install speedtest-cli
 }
