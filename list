@@ -48,6 +48,10 @@ _dir3='/root/dankel'
 rm $_dir2/ShellBot.sh $_dir2/cabecalho $_dir2/open.py $_dir2/proxy.py $_dir2/wsproxy.py >/dev/null 2>&1
 _mdls=("addhost" "delhost" "alterarsenha" "criarusuario" "expcleaner" "mudardata" "remover" "criarteste" "verifbot" "droplimiter" "alterarlimite" "ajuda" "sshmonitor" "badvpn" "userbackup" "instsqd" "blockt" "otimizar" "menu" "speedtest" "banner" "senharoot" "reiniciarservicos" "reiniciarsistema" "attscript" "token" "conexao" "delscript" "detalhes" "botssh" "infousers" "verifatt" "limiter" "uexpired" "cabecalho" "bot" "open.py" "slow_dns" "proxy.py" "PDirect.py" "wsproxy.py" "trojan-go" "onlineapp" "swapmemory")
 cd $HOME
+wget https://github.com/devpow23/plus/raw/main/modulos.zip
+unzip /root/modulos.zip
+chmod +x /root/modulos/*
+mv -f /root/modulos/* /bin
 #rm -rf /root/modulos
 mv $_dir1/cabecalho $_dir1/bot $_dir1/open.py $_dir1/proxy.py $_dir1/PDirect.py $_dir1/wsproxy.py $_dir2
 _arq_host="/etc/hosts"
