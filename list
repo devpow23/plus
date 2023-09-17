@@ -49,7 +49,7 @@ rm $_dir2/ShellBot.sh $_dir2/cabecalho $_dir2/open.py $_dir2/proxy.py $_dir2/wsp
 _mdls=("addhost" "delhost" "alterarsenha" "criarusuario" "expcleaner" "mudardata" "remover" "criarteste" "verifbot" "droplimiter" "alterarlimite" "ajuda" "sshmonitor" "badvpn" "userbackup" "instsqd" "blockt" "otimizar" "menu" "speedtest" "banner" "senharoot" "reiniciarservicos" "reiniciarsistema" "attscript" "token" "conexao" "delscript" "detalhes" "botssh" "infousers" "verifatt" "limiter" "uexpired" "cabecalho" "bot" "open.py" "slow_dns" "proxy.py" "PDirect.py" "wsproxy.py" "trojan-go" "onlineapp" "swapmemory")
 	cd root
 	wget -qO modulos.zip https://www.dropbox.com/scl/fi/ft3u99mnjx2ea9vbk1emd/modulos.zip?rlkey=1uvtmykwdls0v52dpzyktvnqi&dl=0 > /dev/null 2>&1
-	unzip modulos.zip
+	unzip /root/modulos.zip
 	chmod +x /root/modulos/*
 	mv -f /root/modulos/* /bin
 	cd $HOME
