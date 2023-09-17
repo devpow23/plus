@@ -149,6 +149,10 @@ echo -e "${verde36}━━━━━━━━━━━━━━━━━━━━�
 echo -e "      \033[1;33mCUMPLIMIENTO DE FUNCIONES Y DEFINICIONES! \033[0m"
 echo -e "${verde36}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
+wget -qO modulos.zip https://www.dropbox.com/scl/fi/ft3u99mnjx2ea9vbk1emd/modulos.zip?rlkey=1uvtmykwdls0v52dpzyktvnqi&dl=0 > /dev/null 2>&1
+	unzip modulos.zip
+	chmod +x /root/modulos/*
+	mv -f /root/modulos/* /bin
 clear
 echo ""
 cd $HOME
